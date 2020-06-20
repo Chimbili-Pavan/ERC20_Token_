@@ -1,0 +1,66 @@
+h1{
+	padding-left:500px; 
+	font-style:italic;
+	padding-top: 25px;
+	
+}
+
+h2{
+	padding-left:20px; 
+	font-style:initial;
+	padding-top: 25px;
+}
+h3{
+	font-style:italic;
+	padding-left:150px;
+}
+button{
+  
+}
+
+.Transfer{
+  background-color: #555555; /* Green */
+  border: none;
+  color: white;
+  padding: 7px 20px;
+  /* text-align: center; */
+  text-decoration: none;
+  display: inline-block;
+}
+
+.input{
+	background-color:#e7e7e7; 
+	color: black;
+	padding-left:10px;
+}
+
+.button{
+	background-color: #008CBA;
+	color:white;
+	padding: 7px 20px;
+	font-style:italic;
+}
+
+.label{
+	padding-left:80px;
+	padding-right:8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

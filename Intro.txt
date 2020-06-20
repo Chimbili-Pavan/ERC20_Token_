@@ -1,0 +1,8 @@
+Implemented the basic ERC20 token functionality and deployed it on ropsten test network
+
+Build basic front end interface which will imteract with the back-end Ethereum smart contract deployed on the ropsten network.
+
+The details of the smart contract are as follows
+-------------------------------------------------
+smart contract address : 0xA1d93E8676FA663BB14d3257D16e124fb1177d48
+Tx hash : 0x7921d1ab00972ee6f6921e6eb8be5329c9e6840ae8c8316ca57bb26e01f6c828

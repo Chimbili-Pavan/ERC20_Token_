@@ -1,0 +1,86 @@
+<! DOCTYPE HTML>
+<html language='en'>
+<head>
+
+<title> ERC20 Token DApp </title>
+<link rel='stylesheet' href='CSS\all.css'>
+
+</head>
+
+<body>
+
+<h1> Ethereum Platform </h1>
+<h2> ERC20 Token App </h2>
+
+<div class='Transfer'>
+<h3>Users Interface</h3>
+<p> - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - </p>
+<div class="alert" id="transferResult">
+
+</div>
+<form>
+
+<label style='padding-right:8px;' for='reciepientAdd' >Reciepient Address</label>
+<input type='text' class='input' id='reciepientAdd'>
+<label for='transfer-Amount' class='label' >Amount</label>
+<input type='text' class='input' id='transfer-Amount'>
+<br>
+<br>
+<button type='button' class='button' onclick='transfer()'> Transfer </button>
+
+</form>
+
+<p> - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - </p>
+<div class="alert" id="approveResult">
+
+</div>
+<form>
+<label style='padding-right:8px;' for='senderAdd' >Sender Address</label>
+<input type='text' class='input' id='senderAdd'>
+<label for='approve-Amount' class='label' >Amount</label>
+<input type='text' class='input' id='approve-Amount'>
+<br>
+<br>
+<button type='button' class='button' onclick='approve()'> Approve </button>
+<br>
+<br>
+</form>
+
+<p> - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - </p>
+<div class="alert" id="balanceOfResult">
+
+</div>
+<form>
+<label style='padding-right:8px;' for='balanceof-Add' >Address</label>
+<input type='text' class='input' id='balanceof-Add'>
+<br>
+<br>
+<button type='button' class='button' onclick='balance()'> Balance Of </button>
+<br>
+<br>
+</form>
+<p> - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - </p>
+<div class="alert" id="balanceOfResult">
+
+</div>
+<form>
+<label style='padding-right:8px;' for='ownerAdd' >Owner Address</label>
+<input type='text' class='input' id='ownerAdd'>
+<label for='spenderAdd' class='label' >Spender Address</label>
+<input type='text' class='input' id='spenderAdd'>
+<br>
+<br>
+<button type='button' class='button' onclick='allowance()'> Allowance </button>
+<br>
+<br>
+</form>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/web3.min.js"></script>
+<script src="js/app.js"></script>
+
+
+</body>
+</html>
